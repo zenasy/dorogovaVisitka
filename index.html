@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Помощник юриста | Профессиональная юридическая помощь</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-balance-scale"></i>
+                <span>Юр<span class="logo-accent">Помощь</span></span>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#home" class="nav-link">Главная</a></li>
+                    <li><a href="#about" class="nav-link">Обо мне</a></li>
+                    <li><a href="#services" class="nav-link">Услуги</a></li>
+                    <li><a href="#process" class="nav-link">Как я работаю</a></li>
+                    <li><a href="#testimonials" class="nav-link">Отзывы</a></li>
+                    <li><a href="#contact" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главная секция -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content animate-on-scroll">
+                <h1 class="hero-title">Профессиональная юридическая помощь</h1>
+                <p class="hero-subtitle">Я - Дорогова Серафима, помощник юриста с +-летним опытом работы. Предоставляю полный спектр юридических услуг, сопровождение сделок и помощь в решении правовых вопросов любой сложности.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-accent pulse-animation">Записаться на консультацию</a>
+                    <a href="#services" class="btn btn-outline">Мои услуги</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Анимированные элементы фона -->
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-img animate-on-scroll" data-animation="fade-left">
+                    <div class="img-placeholder">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="experience-badge floating-animation">
+                        <span>2+</span>
+                        <small>лет опыта</small>
+                    </div>
+                </div>
+                <div class="about-text animate-on-scroll" data-animation="fade-right">
+                    <h2>Серафима Дмитриевна</h2>
+                    <p>Дорогова Серафима Дмитриевна, юрисконсульт с высшим юридическим образованием (МГЮА) и опытом работы 1 год 5 месяцев. </p>
+                    <p>Имеет опыт работы в ООО «Формула Д» по ведению деловой переписки, подготовке договоров и участию в досудебном урегулировании споров, а также практику в корпоративном управлении ОАО «РЖД». Владеет английским языком (уровень В2), навыками юридического анализа и уверенно работает с 1С, Диадок и Microsoft Office.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Владение английским языком на уровне C1</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Специализация на гражданском и семейном праве</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Конфиденциальность и индивидуальный подход</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Работа с клиентами по всей России</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-accent hover-grow">Связаться со мной</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Мои услуги</h2>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll" data-animation="fade-up" data-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3>Составление документов</h3>
+                    <p>Подготовка исковых заявлений, жалоб, договоров, претензий и других юридических документов.</p>
+                    <div class="service-hover">
+                        <span>Подробнее</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <div class="service-card animate-on-scroll" data-animation="fade-up" data-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Сопровождение сделок</h3>
+                    <p>Правовая экспертиза документов, сопровождение сделок с недвижимостью, оформление наследства.</p>
+                    <div class="service-hover">
+                        <span>Подробнее</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <div class="service-card animate-on-scroll" data-animation="fade-up" data-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>Представление в суде</h3>
+                    <p>Подготовка к судебным заседаниям, составление процессуальных документов, защита интересов в суде.</p>
+                    <div class="service-hover">
+                        <span>Подробнее</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <div class="service-card animate-on-scroll" data-animation="fade-up" data-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Семейные споры</h3>
+                    <p>Расторжение брака, раздел имущества, взыскание алиментов, определение места жительства детей.</p>
+                    <div class="service-hover">
+                        <span>Подробнее</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <div class="service-card animate-on-scroll" data-animation="fade-up" data-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Трудовые споры</h3>
+                    <p>Восстановление на работе, взыскание заработной платы, оспаривание дисциплинарных взысканий.</p>
+                    <div class="service-hover">
+                        <span>Подробнее</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <div class="service-card animate-on-scroll" data-animation="fade-up" data-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Юридические консультации</h3>
+                    <p>Устные и письменные консультации по правовым вопросам, анализ ситуации, план действий.</p>
+                    <div class="service-hover">
+                        <span>Подробнее</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Как я работаю -->
+    <section id="process">
+        <div class="container">
+            <h2 class="section-title">Как я работаю</h2>
+            
+            <div class="process-steps">
+                <div class="step animate-on-scroll" data-animation="zoom-in">
+                    <div class="step-number">1</div>
+                    <h3>Консультация</h3>
+                    <p>Первичная консультация для анализа вашей ситуации и определения путей решения</p>
+                    <div class="step-line"></div>
+                </div>
+                
+                <div class="step animate-on-scroll" data-animation="zoom-in" data-delay="200">
+                    <div class="step-number">2</div>
+                    <h3>Анализ</h3>
+                    <p>Изучение документов, правовой анализ ситуации, разработка стратегии</p>
+                    <div class="step-line"></div>
+                </div>
+                
+                <div class="step animate-on-scroll" data-animation="zoom-in" data-delay="400">
+                    <div class="step-number">3</div>
+                    <h3>Решение</h3>
+                    <p>Реализация выбранной стратегии, подготовка документов, представление интересов</p>
+                    <div class="step-line"></div>
+                </div>
+                
+                <div class="step animate-on-scroll" data-animation="zoom-in" data-delay="600">
+                    <div class="step-number">4</div>
+                    <h3>Результат</h3>
+                    <p>Достижение поставленной цели, получение результата для клиента</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Отзывы клиентов</h2>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Анна помогла решить сложный вопрос с наследством. Профессионально, быстро и тактично. Рекомендую всем, кто ищет грамотного юриста!</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Марина Ковалева</h4>
+                                <span>Москва</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Благодаря помощи Анны удалось выиграть трудовой спор с бывшим работодателем. Весь процесс занял меньше месяца. Отличный результат!</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Дмитрий Соколов</h4>
+                                <span>Санкт-Петербург</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Составление договора купли-продажи квартиры было выполнено безупречно. Все нюансы учтены, документы подготовлены профессионально.</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Ольга Петрова</h4>
+                                <span>Казань</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll" data-animation="fade-right">
+                    <h3>Свяжитесь со мной</h3>
+                    <p>Готов помочь вам в решении правовых вопросов. Оставьте заявку или свяжитесь со мной удобным способом.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Телефон</h4>
+                                <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:dorogova_06@mail.ru">dorogova_06@mail.ru</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Адрес</h4>
+                                <p>г. Москва,ул.Кравченко, д.12</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>График работы</h4>
+                                <p>Пн-Пт: 9:00 - 18:00<br>Сб: 10:00 - 15:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form animate-on-scroll" data-animation="fade-left">
+                    <h3>Запись на консультацию</h3>
+                    <form id="consultation-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required class="form-input">
+                            <div class="focus-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Ваш телефон" required class="form-input">
+                            <div class="focus-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Ваш email" class="form-input">
+                            <div class="focus-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Опишите вашу ситуацию" required class="form-input"></textarea>
+                            <div class="focus-line"></div>
+                        </div>
+                        <button type="submit" class="btn btn-accent submit-btn">
+                            <span>Отправить заявку</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        Юр<span class="logo-accent">Помощь</span>
+                    </div>
+                    <p>Профессиональная юридическая помощь по всем отраслям права. Конфиденциально, качественно, эффективно.</p>
+                    
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">Обо мне</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#process">Как я работаю</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Услуги</h4>
+                    <ul>
+                        <li><a href="#services">Составление документов</a></li>
+                        <li><a href="#services">Сопровождение сделок</a></li>
+                        <li><a href="#services">Представление в суде</a></li>
+                        <li><a href="#services">Семейные споры</a></li>
+                        <li><a href="#services">Трудовые споры</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Помощник юриста Анна Смирнова. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Кнопка "Наверх" -->
+    <button id="scroll-top" class="scroll-top-btn">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Модальное окно успешной отправки -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Заявка отправлена!</h3>
+            <p>Спасибо за ваше обращение. Я свяжусь с вами в ближайшее время.</p>
+            <button class="btn btn-accent close-modal">Ок</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
